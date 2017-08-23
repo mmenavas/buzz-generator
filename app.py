@@ -11,7 +11,7 @@ signal.signal(signal.SIGINT, lambda s, f: os._exit(0))
 def generate_buzz():
     page = '<html><body><h1>'
     page += generator.generate_buzz()
-    page += '</h1><p><small>By Maximo.</small></p></body></html>'
+    page += '</h1><p><small>By Maximo. Credit goes to <a href="https://medium.com/bettercode/how-to-build-a-modern-ci-cd-pipeline-5faa01891a5b">https://medium.com/bettercode/how-to-build-a-modern-ci-cd-pipeline-5faa01891a5b</a></small></p></body></html>'
     return page
 
 if __name__ == "__main__":
